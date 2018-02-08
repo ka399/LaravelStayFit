@@ -13,11 +13,10 @@
 
     .jumbotron
     {
-        margin-top: 0px;
+        margin-top: 10px;
         background-image:url('http://www.bodyforwife.com/wp-content/uploads/2017/10/dumbbell.jpg?x88132');
         background-size: cover;
         color: white;
-        width: 2000px;
         height: 400px;
     }
     #p
