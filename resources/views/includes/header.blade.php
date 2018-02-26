@@ -1,3 +1,4 @@
+<header>
 <div class="jumbotron">
     <div class="container">
         <h1 class="alt">
@@ -8,5 +9,4 @@
         <p><a class="btn btn-info btn-lg" href="{{route('about')}}" role="button">Learn more &raquo;</a></p>
     </div>
 </div>
-
-
+</header>

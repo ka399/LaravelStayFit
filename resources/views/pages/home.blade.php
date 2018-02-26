@@ -1,15 +1,20 @@
 @extends('layouts.default')
 @section('content')
-
-    <div class ="container mt-3">
-        <p style="font-size: large; "> Maintain your daily workout routine at our extensive fitness center. StayFit Gym is equipped with brand-new cardio machines,
-            each with personalized features including entertainment centers, as well as Life Fitness strength training machines
+    <div class="container mt-3">
+        <p style="font-size: large; "> Maintain your daily workout routine at our extensive fitness center. StayFit Gym
+            is equipped with brand-new cardio machines,
+            each with personalized features including entertainment centers, as well as Life Fitness strength training
+            machines
             to make your workouts more efficient and effective.
-            Use treadmills, bikes, free weights, resistance bands, and more to match your usual routine or to change it up.
-            A wall of windows beams bright natural light into our state-of-the-art fitness center, equipped with Life Fitness treadmills, elliptical, cross trainers, and exercise bikes. Complete your workout with our selection of free weights, circuit weights, ropes, and mats.</p>
+            Use treadmills, bikes, free weights, resistance bands, and more to match your usual routine or to change it
+            up.
+            A wall of windows beams bright natural light into our state-of-the-art fitness center, equipped with Life
+            Fitness treadmills, elliptical, cross trainers, and exercise bikes. Complete your workout with our selection
+            of free weights, circuit weights, ropes, and mats.</p>
     </div>
 
-    <div class="container mt-4">
+    <br/>
+    <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <h2><a name="hours">Staffed Hours</a></h2>
@@ -30,15 +35,42 @@
             </div>
             <br/>
         </div>
-
-
     </div> <!-- /container -->
 
-    <div class="container mt-5">
-    <div class="imgdist">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/e2/30/90/7.jpg">
-        <img src="https://norcross.place.hyatt.com/content/dam/PropertyWebsites/place/tpazl/Media/All/737x415xHyatt-Place-Chicago-Itasca-P032-Fitness-Center.gallery-2-3-item-panel.jpg.pagespeed.ic.FqZ3HtKA8E.jpg">
+    <br/>
+    <div class="container" mb-10>
+        <div class="carouselsize">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <h3>StayFit Photo Gallery</h3>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                             src="https://greenville.regency.hyatt.com/content/dam/PropertyWebsites/regency/gsprg/Media/All/Hyatt-Regency-Greenville-Stay-Fit-Gym.jpg"
+                             alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                             src="https://jacksonville.regency.hyatt.com/content/dam/PropertyWebsites/regency/jaxrj/Media/All/Hyatt-Regency-Jacksonville-Riverfront-P042-Fitness-Center.masthead-feature-panel-medium.jpg"
+                             alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                             src="https://denvertechcenter.regency.hyatt.com/content/dam/PropertyWebsites/regency/denve/Media/All/Hyatt-Regency-Denver-Tech-Center-Hotel-Fitness-Room.jpg"
+                             alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            @include('includes.footer')
+        </div>
     </div>
-    <p> <strong><i>Glimpse of STAYFIT Fitness Center</i></strong></p>
-    </div>
-@stop
+
+
+@endsection

@@ -1,4 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <h1>THANK YOU,{{$name}}. We will get back to you soon.</h1>
+    <div class="container">
+    <h4>THANK YOU, {{$name}} for your message. <br/> We will get back to you soon. <br/><br/> Best Regards, <br/>Stayfit Fitness Team</h4>
+    </div>
 @endsection

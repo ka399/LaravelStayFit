@@ -42,6 +42,11 @@ class PagesController extends Controller
         return view('pages.register');
     }
 
+    function logout()
+    {
+        return view('pages.logout');
+    }
+
     function thankyou($name)
     {
         return view('pages.thankyou')-> with(compact('name'));

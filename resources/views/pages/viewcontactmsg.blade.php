@@ -3,13 +3,19 @@
     <div class="container">
         <div class="card">
             <div class="card-title">
-                <h1>Stayfit Inbox</h1>
+                <h3>Stayfit:View Message</h3>
 
             </div>
             <div class="card-body">
                 <?php
-                switch ($messageID)
-                {
+                switch ($messageID) {
+                    case null:
+                        $sendername ="Julia Roberts";
+                        $sendermail = "julia@hotmail.com";
+                        $subject = "Regarding Zumba Classes";
+                        $message = "Hi Stayfit,"."<br/>"."I would like to know more about Zumba classes. Can you please let me
+                        know the trainer contact details."."<br/>"."Thanks,"."<br/>"."Julia"."<br/";
+                        break;
                     case "1":
                         $sendername ="Julia Roberts";
                         $sendermail = "julia@hotmail.com";
@@ -59,7 +65,7 @@
                 echo "<p>Message:</p>";
                 echo "<p>$message</p>";
                 ?>
-                    <p><a class="btn btn-info btn-lg" href="{{route('viewmsgs')}}" role="button">Back to Messages &raquo;</a></p>
+                    <p><a class="btn btn-info btn-lg" href="{{route('viewmsgs')}}" role="button">Back to Inbox</a></p>
             </div>
         </div>
     </div>

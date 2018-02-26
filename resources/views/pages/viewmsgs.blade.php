@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
     <div class="container">
-        <H3>Message Dashboard</H3>
+        <H3>Stayfit Inbox</H3>
         <form action="" method="">
         <table class="table table-striped table-dark">
             <thead class="thead-dark">
