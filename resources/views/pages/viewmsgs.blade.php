@@ -15,7 +15,7 @@
             <tr>
                     <td>Julia Roberts</td>
                     <td>
-                        <a href="<?=URL::to('viewcontactmessage',1)?>">Regarding Zumba Classes</a>
+                        <a href="{{route('viewcontactmessage',1)}}">Regarding Zumba Classes</a>
                     </td>
                     <td>
                         <button type="submit" class="btn btn-block" onclick="">Delete</button>
@@ -24,7 +24,7 @@
             <tr>
                     <td>Christy Adams</td>
                     <td>
-                        <a href="<?=URL::to('viewcontactmessage',2)?>">Regarding Yearly Membership Discounts</a>
+                        <a href="{{route('viewcontactmessage',2)}}">Regarding Yearly Membership Discounts</a>
                     </td>
                     <td>
                         <button type="submit" class="btn btn-block">Delete</button>
@@ -33,7 +33,7 @@
             <tr>
                     <td>Tom Alter</td>
                     <td>
-                        <a href="<?=URL::to('viewcontactmessage',3)?>">Please call me asap..</a>
+                        <a href="{{route('viewcontactmessage',3)}}">Please call me asap..</a>
                     </td>
                     <td>
                         <button type="submit" class="btn btn-block">Delete</button>
@@ -42,7 +42,7 @@
             <tr>
                     <td>Shirley Liu</td>
                     <td>
-                        <a href="<?=URL::to('viewcontactmessage',4)?>">Regarding Yoga Classes</a>
+                        <a href="{{route('viewcontactmessage',4)}}">Regarding Yoga Classes</a>
                     </td>
                     <td>
                         <button type="submit" class="btn btn-block">Delete</button>
@@ -51,7 +51,7 @@
             <tr>
                     <td>Indumathi Rajendran</td>
                     <td>
-                        <a href="<?=URL::to('viewcontactmessage',5)?>">Hello there, Please reply!</a>
+                        <a href="{{route('viewcontactmessage',5)}}">Hello there, Please reply!</a>
                     </td>
                     <td>
                         <button type="submit" class="btn btn-block">Delete</button>
